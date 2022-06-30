@@ -67,3 +67,16 @@ spec:
         - name: wiki-storage
           persistentVolumeClaim:
             claimName: wiki-data-volume-claim
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wiki-svc
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      nodePort: 30180
+  selector:
+    app: wiki
