@@ -133,6 +133,9 @@ wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
 wfLoadSkin( 'Vector' );
 
+wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+
+
 
 # End of automatically generated settings.
 # Add more configuration options below.
