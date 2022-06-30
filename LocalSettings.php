@@ -30,7 +30,7 @@ $wgMetaNamespace = "KBS_wiki";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://10.30.38.62:30180";
+$wgServer = "http://10.30.38.62";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
